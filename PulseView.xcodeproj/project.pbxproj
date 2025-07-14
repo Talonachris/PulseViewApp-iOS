@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDC0C28E2DEA02FB00D9DB85 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC0C28D2DEA02FB00D9DB85 /* WidgetKit.framework */; };
+		CDC0C2902DEA02FB00D9DB85 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC0C28F2DEA02FB00D9DB85 /* SwiftUI.framework */; };
+		CDC0C2A12DEA02FC00D9DB85 /* PulseViewWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CDC0C28B2DEA02FB00D9DB85 /* PulseViewWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDF2E4CB2E1FF5FE006F39D4 /* PulseViewWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CDF2E4C12E1FF5FD006F39D4 /* PulseViewWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6714772E1FFEBB00AA7BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8C2DF72DE8AE01003FFF1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF2E4C02E1FF5FD006F39D4;
+			remoteInfo = "PulseViewWatch Watch App";
+		};
+		CDC0C29F2DEA02FC00D9DB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8C2DF72DE8AE01003FFF1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC0C28A2DEA02FB00D9DB85;
+			remoteInfo = PulseViewWidgetExtension;
+		};
+		CDF2E4C92E1FF5FE006F39D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8C2DF72DE8AE01003FFF1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF2E4C02E1FF5FD006F39D4;
+			remoteInfo = "PulseViewWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDC0C2A62DEA02FC00D9DB85 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CDC0C2A12DEA02FC00D9DB85 /* PulseViewWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2E4CC2E1FF5FE006F39D4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CDF2E4CB2E1FF5FE006F39D4 /* PulseViewWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD15EA392E212B7A002C6EA2 /* PulseViewWatch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PulseViewWatch-Watch-App-Info.plist"; sourceTree = "<group>"; };
+		CD8C2DFF2DE8AE01003FFF1F /* PulseView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA845E52E1F3368001851AF /* PulseViewTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseViewTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC0C28B2DEA02FB00D9DB85 /* PulseViewWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PulseViewWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC0C28D2DEA02FB00D9DB85 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CDC0C28F2DEA02FB00D9DB85 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CDC0C2B12DEA084200D9DB85 /* PulseViewWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PulseViewWidgetExtension.entitlements; sourceTree = "<group>"; };
+		CDF2E4C12E1FF5FD006F39D4 /* PulseViewWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PulseViewWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF2E4D02E1FF63B006F39D4 /* PulseViewWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PulseViewWatch Watch App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CD483A6F2E24AD4F00272954 /* Exceptions for "PulseView" folder in "PulseView" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CustomInfo.plist,
+				Secrets.plist,
+			);
+			target = CD8C2DFE2DE8AE01003FFF1F /* PulseView */;
+		};
+		CD6714762E1FFBAA00AA7BD1 /* Exceptions for "PulseViewTV" folder in "PulseView" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TVUserFetcher.swift,
+			);
+			target = CD8C2DFE2DE8AE01003FFF1F /* PulseView */;
+		};
+		CDA845F42E1F3403001851AF /* Exceptions for "PulseView" folder in "PulseViewTV" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PulseCircleView.swift,
+				Secrets.swift,
+				UserStatsFetcher.swift,
+				UserStore.swift,
+				WhatPulseAPI.swift,
+				WhatPulseUser.swift,
+			);
+			target = CDA845E42E1F3368001851AF /* PulseViewTV */;
+		};
+		CDC0C2A22DEA02FC00D9DB85 /* Exceptions for "PulseViewWidget" folder in "PulseViewWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CDC0C28A2DEA02FB00D9DB85 /* PulseViewWidgetExtension */;
+		};
+		CDC0C2AA2DEA036400D9DB85 /* Exceptions for "PulseView" folder in "PulseViewWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				NumberFormatters.swift,
+				Secrets.swift,
+				WhatPulseAPI.swift,
+				WhatPulseUser.swift,
+			);
+			target = CDC0C28A2DEA02FB00D9DB85 /* PulseViewWidgetExtension */;
+		};
+		CDF2E4D52E1FF6C4006F39D4 /* Exceptions for "PulseView" folder in "PulseViewWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				NumberFormatters.swift,
+				Secrets.swift,
+				UserStore.swift,
+				WhatPulseAPI.swift,
+				WhatPulseUser.swift,
+			);
+			target = CDF2E4C02E1FF5FD006F39D4 /* PulseViewWatch Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		CD483A702E24AD4F00272954 /* Exceptions for "PulseView" folder in "Compile Sources" phase from "PulseView" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = CD8C2DFB2DE8AE01003FFF1F /* Sources */;
+			membershipExceptions = (
+				Secrets.plist,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD8C2E012DE8AE01003FFF1F /* PulseView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CD483A6F2E24AD4F00272954 /* Exceptions for "PulseView" folder in "PulseView" target */,
+				CD483A702E24AD4F00272954 /* Exceptions for "PulseView" folder in "Compile Sources" phase from "PulseView" target */,
+				CDC0C2AA2DEA036400D9DB85 /* Exceptions for "PulseView" folder in "PulseViewWidgetExtension" target */,
+				CDA845F42E1F3403001851AF /* Exceptions for "PulseView" folder in "PulseViewTV" target */,
+				CDF2E4D52E1FF6C4006F39D4 /* Exceptions for "PulseView" folder in "PulseViewWatch Watch App" target */,
+			);
+			path = PulseView;
+			sourceTree = "<group>";
+		};
+		CDA845E62E1F3368001851AF /* PulseViewTV */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CD6714762E1FFBAA00AA7BD1 /* Exceptions for "PulseViewTV" folder in "PulseView" target */,
+			);
+			path = PulseViewTV;
+			sourceTree = "<group>";
+		};
+		CDC0C2912DEA02FB00D9DB85 /* PulseViewWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CDC0C2A22DEA02FC00D9DB85 /* Exceptions for "PulseViewWidget" folder in "PulseViewWidgetExtension" target */,
+			);
+			path = PulseViewWidget;
+			sourceTree = "<group>";
+		};
+		CDF2E4C22E1FF5FD006F39D4 /* PulseViewWatch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PulseViewWatch;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8C2DFC2DE8AE01003FFF1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA845E22E1F3368001851AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC0C2882DEA02FB00D9DB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC0C2902DEA02FB00D9DB85 /* SwiftUI.framework in Frameworks */,
+				CDC0C28E2DEA02FB00D9DB85 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2E4BE2E1FF5FD006F39D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8C2DF62DE8AE01003FFF1F = {
+			isa = PBXGroup;
+			children = (
+				CD15EA392E212B7A002C6EA2 /* PulseViewWatch-Watch-App-Info.plist */,
+				CDF2E4D02E1FF63B006F39D4 /* PulseViewWatch Watch App.entitlements */,
+				CDC0C2B12DEA084200D9DB85 /* PulseViewWidgetExtension.entitlements */,
+				CD8C2E012DE8AE01003FFF1F /* PulseView */,
+				CDC0C2912DEA02FB00D9DB85 /* PulseViewWidget */,
+				CDA845E62E1F3368001851AF /* PulseViewTV */,
+				CDF2E4C22E1FF5FD006F39D4 /* PulseViewWatch */,
+				CDC0C28C2DEA02FB00D9DB85 /* Frameworks */,
+				CD8C2E002DE8AE01003FFF1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8C2E002DE8AE01003FFF1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C2DFF2DE8AE01003FFF1F /* PulseView.app */,
+				CDC0C28B2DEA02FB00D9DB85 /* PulseViewWidgetExtension.appex */,
+				CDA845E52E1F3368001851AF /* PulseViewTV.app */,
+				CDF2E4C12E1FF5FD006F39D4 /* PulseViewWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC0C28C2DEA02FB00D9DB85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDC0C28D2DEA02FB00D9DB85 /* WidgetKit.framework */,
+				CDC0C28F2DEA02FB00D9DB85 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8C2DFE2DE8AE01003FFF1F /* PulseView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8C2E0A2DE8AE02003FFF1F /* Build configuration list for PBXNativeTarget "PulseView" */;
+			buildPhases = (
+				CD8C2DFB2DE8AE01003FFF1F /* Sources */,
+				CD8C2DFC2DE8AE01003FFF1F /* Frameworks */,
+				CD8C2DFD2DE8AE01003FFF1F /* Resources */,
+				CDC0C2A62DEA02FC00D9DB85 /* Embed Foundation Extensions */,
+				CDF2E4CC2E1FF5FE006F39D4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC0C2A02DEA02FC00D9DB85 /* PBXTargetDependency */,
+				CDF2E4CA2E1FF5FE006F39D4 /* PBXTargetDependency */,
+				CD6714782E1FFEBB00AA7BD1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD8C2E012DE8AE01003FFF1F /* PulseView */,
+			);
+			name = PulseView;
+			packageProductDependencies = (
+			);
+			productName = PulseView;
+			productReference = CD8C2DFF2DE8AE01003FFF1F /* PulseView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA845E42E1F3368001851AF /* PulseViewTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA845EF2E1F3369001851AF /* Build configuration list for PBXNativeTarget "PulseViewTV" */;
+			buildPhases = (
+				CDA845E12E1F3368001851AF /* Sources */,
+				CDA845E22E1F3368001851AF /* Frameworks */,
+				CDA845E32E1F3368001851AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CDA845E62E1F3368001851AF /* PulseViewTV */,
+			);
+			name = PulseViewTV;
+			packageProductDependencies = (
+			);
+			productName = PulseViewTV;
+			productReference = CDA845E52E1F3368001851AF /* PulseViewTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDC0C28A2DEA02FB00D9DB85 /* PulseViewWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC0C2A32DEA02FC00D9DB85 /* Build configuration list for PBXNativeTarget "PulseViewWidgetExtension" */;
+			buildPhases = (
+				CDC0C2872DEA02FB00D9DB85 /* Sources */,
+				CDC0C2882DEA02FB00D9DB85 /* Frameworks */,
+				CDC0C2892DEA02FB00D9DB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CDC0C2912DEA02FB00D9DB85 /* PulseViewWidget */,
+			);
+			name = PulseViewWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = PulseViewWidgetExtension;
+			productReference = CDC0C28B2DEA02FB00D9DB85 /* PulseViewWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CDF2E4C02E1FF5FD006F39D4 /* PulseViewWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF2E4CF2E1FF5FE006F39D4 /* Build configuration list for PBXNativeTarget "PulseViewWatch Watch App" */;
+			buildPhases = (
+				CDF2E4BD2E1FF5FD006F39D4 /* Sources */,
+				CDF2E4BE2E1FF5FD006F39D4 /* Frameworks */,
+				CDF2E4BF2E1FF5FD006F39D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CDF2E4C22E1FF5FD006F39D4 /* PulseViewWatch */,
+			);
+			name = "PulseViewWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PulseViewWatch Watch App";
+			productReference = CDF2E4C12E1FF5FD006F39D4 /* PulseViewWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8C2DF72DE8AE01003FFF1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = pulse;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1630;
+				ORGANIZATIONNAME = Nebuliton;
+				TargetAttributes = {
+					CD8C2DFE2DE8AE01003FFF1F = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					CDA845E42E1F3368001851AF = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+					CDC0C28A2DEA02FB00D9DB85 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					CDF2E4C02E1FF5FD006F39D4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = CD8C2DFA2DE8AE01003FFF1F /* Build configuration list for PBXProject "PulseView" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8C2DF62DE8AE01003FFF1F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD8C2E002DE8AE01003FFF1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8C2DFE2DE8AE01003FFF1F /* PulseView */,
+				CDC0C28A2DEA02FB00D9DB85 /* PulseViewWidgetExtension */,
+				CDA845E42E1F3368001851AF /* PulseViewTV */,
+				CDF2E4C02E1FF5FD006F39D4 /* PulseViewWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8C2DFD2DE8AE01003FFF1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA845E32E1F3368001851AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC0C2892DEA02FB00D9DB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2E4BF2E1FF5FD006F39D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8C2DFB2DE8AE01003FFF1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA845E12E1F3368001851AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC0C2872DEA02FB00D9DB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2E4BD2E1FF5FD006F39D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6714782E1FFEBB00AA7BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF2E4C02E1FF5FD006F39D4 /* PulseViewWatch Watch App */;
+			targetProxy = CD6714772E1FFEBB00AA7BD1 /* PBXContainerItemProxy */;
+		};
+		CDC0C2A02DEA02FC00D9DB85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC0C28A2DEA02FB00D9DB85 /* PulseViewWidgetExtension */;
+			targetProxy = CDC0C29F2DEA02FC00D9DB85 /* PBXContainerItemProxy */;
+		};
+		CDF2E4CA2E1FF5FE006F39D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF2E4C02E1FF5FD006F39D4 /* PulseViewWatch Watch App */;
+			targetProxy = CDF2E4C92E1FF5FE006F39D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD8C2E082DE8AE02003FFF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 79ZHBXLLHP;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD8C2E092DE8AE02003FFF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 79ZHBXLLHP;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8C2E0B2DE8AE02003FFF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = CD8C2E012DE8AE01003FFF1F /* PulseView */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PulseView/PulseView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 30;
+				DEVELOPMENT_TEAM = 79ZHBXLLHP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseView;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Nebuliton.PulseView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WHATPULSE_API_KEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMGZiNjMxZTMzMTI3OTM2YmE4YjI3MzQ3MjhmNjQyN2Q1YWM0ZjliNjkwNTY2Mzg1MGJlOTBiOGZmZTA1NDZkNDk5ZjdiZDU3ZDA2NWViNmEiLCJpYXQiOjE3NDkxMzQ1NTEuMTExNDA3LCJuYmYiOjE3NDkxMzQ1NTEuMTExNDEsImV4cCI6MTc4MDY3MDU1MS4xMDQxODgsInN1YiI6IjEyNDQwODIiLCJzY29wZXMiOlsidXNlci1wdWJsaWMtYXBpIl19.hEph2t78h4tohX-9yaJFfJ-ncrUkgDdTfnR7L8YzYlBvNHAX1XI17eL678Qpgj1c4dAncsjHXYP3DaCcSeFDZARjYbC-ZoCjS2546jcZQRpKRy7YJRzg_IrHPG7-qT5bcB9eh57HikECyW2txJSmjWBF0t4XZu3F8Bp7JipMK3w1CuKF8YhGJeFiX6a8qCgTvjlqYzxom5GDU-dbsDZnY9cZ6T_GPYMLnAas4fzdroyjkZOCpj7a1nxlwyZwY_WHfRkZn9VEuAVuFDLPMq-WSvEb5VpxWwE-KZLT3-pqg4PW2eXanC4O1qmy5FmgXmO38xOhtvjZitQw4T0XjWkHUh33CYW-juYZeX1ZSz4YI6jC_nDySCO4rgPW-XrivcR7bKdA0QywEhJBZ88sKa5Q80UFd2SOC9lQniQnL784qKhEKvaJg0nZhGqsRKEPoKd2q4DmwQo9jWglgY1GhFKIntdcU7oJ2LXgvBB8-u78hEXwppkaWumYsPZcHaKoUZvISHzoL24Mv-NUMljpDpczFMBxdAUK-xSfCtliO2A1FnEnmHAiKeazNeC93uKnJbcQxa3GlwxkHwgvu8fg1-r707P6rhQfEa2TOUNWkUyppOa4tbi5ei5_T8TDdrJULF6GD_IPJnbGRQ1NP8F1wjiimhfoRJEyrzaMAre851iPYCw";
+				XROS_DEPLOYMENT_TARGET = "";
+			};
+			name = Debug;
+		};
+		CD8C2E0C2DE8AE02003FFF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = CD8C2E012DE8AE01003FFF1F /* PulseView */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PulseView/PulseView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 30;
+				DEVELOPMENT_TEAM = 79ZHBXLLHP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseView;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Nebuliton.PulseView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WHATPULSE_API_KEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMGZiNjMxZTMzMTI3OTM2YmE4YjI3MzQ3MjhmNjQyN2Q1YWM0ZjliNjkwNTY2Mzg1MGJlOTBiOGZmZTA1NDZkNDk5ZjdiZDU3ZDA2NWViNmEiLCJpYXQiOjE3NDkxMzQ1NTEuMTExNDA3LCJuYmYiOjE3NDkxMzQ1NTEuMTExNDEsImV4cCI6MTc4MDY3MDU1MS4xMDQxODgsInN1YiI6IjEyNDQwODIiLCJzY29wZXMiOlsidXNlci1wdWJsaWMtYXBpIl19.hEph2t78h4tohX-9yaJFfJ-ncrUkgDdTfnR7L8YzYlBvNHAX1XI17eL678Qpgj1c4dAncsjHXYP3DaCcSeFDZARjYbC-ZoCjS2546jcZQRpKRy7YJRzg_IrHPG7-qT5bcB9eh57HikECyW2txJSmjWBF0t4XZu3F8Bp7JipMK3w1CuKF8YhGJeFiX6a8qCgTvjlqYzxom5GDU-dbsDZnY9cZ6T_GPYMLnAas4fzdroyjkZOCpj7a1nxlwyZwY_WHfRkZn9VEuAVuFDLPMq-WSvEb5VpxWwE-KZLT3-pqg4PW2eXanC4O1qmy5FmgXmO38xOhtvjZitQw4T0XjWkHUh33CYW-juYZeX1ZSz4YI6jC_nDySCO4rgPW-XrivcR7bKdA0QywEhJBZ88sKa5Q80UFd2SOC9lQniQnL784qKhEKvaJg0nZhGqsRKEPoKd2q4DmwQo9jWglgY1GhFKIntdcU7oJ2LXgvBB8-u78hEXwppkaWumYsPZcHaKoUZvISHzoL24Mv-NUMljpDpczFMBxdAUK-xSfCtliO2A1FnEnmHAiKeazNeC93uKnJbcQxa3GlwxkHwgvu8fg1-r707P6rhQfEa2TOUNWkUyppOa4tbi5ei5_T8TDdrJULF6GD_IPJnbGRQ1NP8F1wjiimhfoRJEyrzaMAre851iPYCw";
+				XROS_DEPLOYMENT_TARGET = "";
+			};
+			name = Release;
+		};
+		CDA845ED2E1F3369001851AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = appnshelf;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=appletvos*]" = appnshelf;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PulseViewTV/PulseViewTV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 79ZHBXLLHP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nebuliton.PulseView.PulseViewTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Debug;
+		};
+		CDA845EE2E1F3369001851AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = appnshelf;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PulseViewTV/PulseViewTV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 79ZHBXLLHP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nebuliton.PulseView.PulseViewTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Release;
+		};
+		CDC0C2A42DEA02FC00D9DB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PulseViewWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79ZHBXLLHP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PulseViewWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseViewWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Nebuliton. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nebuliton.PulseView.PulseViewWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC0C2A52DEA02FC00D9DB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PulseViewWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79ZHBXLLHP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PulseViewWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseViewWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Nebuliton. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nebuliton.PulseView.PulseViewWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDF2E4CD2E1FF5FE006F39D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PulseViewWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 79ZHBXLLHP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PulseViewWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PulseViewWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Nebuliton.PulseView;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nebuliton.PulseView.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		CDF2E4CE2E1FF5FE006F39D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PulseViewWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 79ZHBXLLHP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PulseViewWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PulseViewWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Nebuliton.PulseView;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nebuliton.PulseView.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8C2DFA2DE8AE01003FFF1F /* Build configuration list for PBXProject "PulseView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8C2E082DE8AE02003FFF1F /* Debug */,
+				CD8C2E092DE8AE02003FFF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8C2E0A2DE8AE02003FFF1F /* Build configuration list for PBXNativeTarget "PulseView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8C2E0B2DE8AE02003FFF1F /* Debug */,
+				CD8C2E0C2DE8AE02003FFF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA845EF2E1F3369001851AF /* Build configuration list for PBXNativeTarget "PulseViewTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA845ED2E1F3369001851AF /* Debug */,
+				CDA845EE2E1F3369001851AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC0C2A32DEA02FC00D9DB85 /* Build configuration list for PBXNativeTarget "PulseViewWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC0C2A42DEA02FC00D9DB85 /* Debug */,
+				CDC0C2A52DEA02FC00D9DB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF2E4CF2E1FF5FE006F39D4 /* Build configuration list for PBXNativeTarget "PulseViewWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF2E4CD2E1FF5FE006F39D4 /* Debug */,
+				CDF2E4CE2E1FF5FE006F39D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8C2DF72DE8AE01003FFF1F /* Project object */;
+}

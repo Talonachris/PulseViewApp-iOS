@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "pulseview_icon_tint.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
