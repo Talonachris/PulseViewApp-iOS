@@ -84,7 +84,7 @@ struct HomeView: View {
                         
                         HStack(alignment: .top, spacing: 32) {
                             // Nebuliton
-                            Link(destination: URL(string: "https://nebuliton.de")!) {
+                            Link(destination: URL(string: "https://nebuliton.io")!) {
                                 VStack(spacing: 8) {
                                     Image("nebuliton_logo")
                                         .resizable()
@@ -127,7 +127,7 @@ struct HomeView: View {
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         NavigationLink(destination: SettingsView().environmentObject(store)) {
-                            Image(systemName: "gearshape.fill")
+                            Image(systemName: "gearshape")
                                 .imageScale(.large)
                                 .foregroundColor(.cyan)
                                 .padding(8)

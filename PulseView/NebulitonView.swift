@@ -119,7 +119,7 @@ struct NebulitonView: View {
                 .multilineTextAlignment(.center)
                 .padding(.bottom, 16)
 
-            Link(destination: URL(string: "https://discord.gg/SGYH8VfGgF")!) {
+            Link(destination: URL(string: "https://discord.gg/nebuliton")!) {
                 Label("Join our Discord!", systemImage: "bubble.left.and.bubble.right.fill")
                     .font(.headline)
                     .foregroundColor(.white)
@@ -128,7 +128,7 @@ struct NebulitonView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 16))
             }
 
-            Link(destination: URL(string: "https://nebuliton.de")!) {
+            Link(destination: URL(string: "https://nebuliton.io")!) {
                 Label("Visit our Website", systemImage: "globe")
                     .font(.headline)
                     .foregroundColor(.white)
@@ -153,7 +153,7 @@ struct NebulitonView: View {
                 .font(.footnote)
                 .foregroundColor(.gray)
 
-            Text("© 2025 Nebuliton – powered by Ryzen™")
+            Text("© 2025 Nebuliton – Serverschmiede der Galaxien")
                 .font(.caption2)
                 .foregroundColor(.gray)
         }
